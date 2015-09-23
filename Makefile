@@ -4,8 +4,8 @@
 
 # Points to the root of Google Test. Change it to reflect where your
 # clone of the googletest repo is
-#GTEST_DIR = /usr/local/include/gtest
-GTEST_DIR = /Users/Shirley_Jin/google_test/googletest/googletest
+GTEST_DIR = /usr/local/include/gtest
+#GTEST_DIR = /Users/Shirley_Jin/google_test/googletest/googletest
 
 # Flags passed to the preprocessor and compiler
 CPPFLAGS += -isystem $(GTEST_DIR)/include
